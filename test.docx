@@ -1,0 +1,11 @@
+import docx
+
+d=docx.Document("test.docx")
+d.paragraphs
+d.paragraphs[0]
+d.paragraphs[0].text
+#or
+p1=d.paragraphs[0]
+p2=d.paragraphs[1]
+p1.text
+p2.text
